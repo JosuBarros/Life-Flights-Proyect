@@ -1,0 +1,120 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  background: url(./Img/Sky.jpg);
+  background-size:cover;
+  background-position: center;
+  font-family: 'Montserrat', sans-serif;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+}
+header img {
+  height: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+}
+nav label {
+  padding: 10px;
+  cursor: pointer;
+}
+
+body h1 {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+main {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+  width: auto;
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 20px 100px rgba(0, 0, 0, 0.1);
+}
+
+section div {
+  display: inline-block;
+  height: 100px;
+  width: 180px;
+}
+
+.destino {
+  width: 200px;
+}
+
+label {
+  font-family: 'Oswald', sans-serif;
+  width: auto;
+  height: auto;
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(53, 167, 255);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+a:hover {
+  color: rgb(255, 136, 17);
+}
+
+li {
+padding: 0 40px;
+}
+
+input { 
+  background-color:transparent;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgb(227, 101, 136);
+  transition: width 0.4s ease-in-out;
+}
+
+.Search { 
+  background-image: url(./Img/lupa.png);
+  background-repeat: no-repeat;
+}
+
+.Help {
+  background-image: url(./Img/Help.png);
+  background-repeat: no-repeat;
+}
+
+.user {
+  margin: 30px 20px 5px;
+  float: right;
+  width: 50px;
+  height: auto;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.user:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}

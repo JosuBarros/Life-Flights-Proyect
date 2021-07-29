@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="StyleSheet" href="../styles.css" type="text/css" media="screen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&family=Oswald:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="../Img/IconoLF.png" />
+    <title>Life Flights</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <img class="logo" src="../Img/LifeFlightsLogo.png" 
+        alt="not found" />
+      </a>
+      <a href="../User/index.html">
+        <img class="user" src="../Img/usuario.png" alt="not found">
+      </a>
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <a href="./index.html">Home</a>
+        </li>
+        <li>
+          <a href="../VacationPackages/index.html">Vacation packages</a>
+        </li>
+        <li>
+          <a href="../Hotels/index.html">Hotels</a>
+        </li>
+        <li>
+          <a href="../CarRental/index.html">Car rental</a>
+        </li>
+      </ul>
+    </nav>
+    <h1>Hello travelers, where would you like to go?</h1>
+    <main>
+      <section class="destino">
+        <div>
+          <label for="">From</label>
+          <input class="Search" type="text" />
+          <label
+            ><input
+              type="checkbox"
+              id="cbox1"
+              value="Argentina"
+            />Argentina</label
+          >
+          <label
+            ><input type="checkbox" id="cbox2" value="Mexico" />Mexico</label
+          >
+        </div>
+        <div>
+          <label for="">To</label>
+          <input class="Search" type="text" />
+          <label><input type="checkbox" id="cbox3" value="Paris" />Paris</label>
+          <label
+            ><input type="checkbox" id="cbox4" value="NewYork" />New York</label
+          >
+        </div>
+      </section>
+      <section>
+        <img
+          src="../Img/AvionMain.png"
+          alt="not founded"
+        />
+      </section>
+      <form action="">
+        <label for="help">Ayuda</label>
+        <input class="Help" type="text" name="help" />
+        <select name="help" id="help">
+          <option value="Consulta">Consulta</option>
+          <option value="Viajes">Viajes</option>
+          <option value="Otro problema">Otro problema</option>
+        </select>
+        <input type="reset" />
+        <input type="submit" />
+      </form>
+    </main>
+  </body>
+</html>
