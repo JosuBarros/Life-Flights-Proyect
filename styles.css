@@ -45,15 +45,19 @@ nav {
   background: linear-gradient(90deg, rgba(12,29,50,1) 0%, rgba(18,56,106,1) 77%, rgba(19,123,255,1) 100%);
 }
 
+
+.icons {
+  display: none;
+}
+
 @media only screen and (max-width:798px) {
+  .nava {
+    display: none;
+  }
   .icons {
     width: 20px;
     display: block;
   }
-}
-
-.icons {
-  display: none;
 }
 
 .menu-fixed {
@@ -66,6 +70,23 @@ nav {
 
 .menu-fixed a {
   font-size: 18px;
+}
+
+.menu ul li {
+  padding: 0 40px;  
+}
+
+@media screen and (max-width:798px) {
+  .menu ul {
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+  padding: 0px;
+}
+
+.menu ul li {
+  justify-self: center;
+}
+
 }
 
 nav label {
@@ -173,9 +194,6 @@ a:hover {
   color: rgb(255, 136, 17);
 }
 
-li {
-padding: 0 40px;
-}
 
 input { 
   background-color:transparent;
@@ -303,11 +321,38 @@ footer {
 
 .container--footer {
   width: 100%;
-  max-width: 1200px;
-  color: rgb(0, 0, 0);
-  font-size: 15px;
-  text-decoration: underline;
+  background: #101010;
 }
+
+.footer {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.copyright {
+  color: #c7c7c7;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.information {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1100px) {
+  .container--body {
+    display: block;
+  }
+}
+
 /*  dentro del footer
 background-color: #FFFFFF;
 align-items: center;
