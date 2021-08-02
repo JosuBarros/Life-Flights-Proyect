@@ -45,6 +45,18 @@ nav {
   background: linear-gradient(90deg, rgba(12,29,50,1) 0%, rgba(18,56,106,1) 77%, rgba(19,123,255,1) 100%);
 }
 
+.nav--link {
+  text-decoration: none;
+  color: rgb(53, 167, 255);
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.4s;
+}
+
+.nav--link:hover {
+  color: rgb(255, 136, 17);
+}
+
 
 .icons {
   display: none;
@@ -182,16 +194,16 @@ ul {
   width: 100%;
 }
 
-a {
+.informationlink {
   text-decoration: none;
   color: rgb(53, 167, 255);
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
   transition: 0.4s;
 }
 
-a:hover {
-  color: rgb(255, 136, 17);
+.informationlink:hover {
+  color: rgb(230, 230, 230);
 }
 
 
@@ -260,6 +272,7 @@ footer {
 
 .colum1 {
   max-width: 400px;
+  padding: 10px;
 }
 
 .colum1 h1 {
@@ -273,10 +286,39 @@ footer {
 
 .colum2 {
   max-width: 400px;
+  padding: 10px;
 }
 
 .colum2 h1 {
   font-size: 22px;
+}
+
+.row a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.4s;
+  font-family: 'Oswald', sans-serif;
+  width: auto;
+  height: auto;
+  display: flex;
+}
+
+.social-ig:hover {
+  color: rgb(176, 4, 255);
+}
+
+.social-tw:hover {
+  color: rgb(0, 195, 255);
+}
+
+.social-yt:hover {
+  color: rgb(255, 4, 4);
+}
+
+.social-fc:hover {
+  color: rgb(21, 4, 255);
 }
 
 .row {
@@ -297,6 +339,7 @@ footer {
 
 .colum3 {
   max-width: 400px;
+  padding: 10px;
 }
 
 .colum3 h1 {
@@ -352,12 +395,3 @@ footer {
     display: block;
   }
 }
-
-/*  dentro del footer
-background-color: #FFFFFF;
-align-items: center;
-margin: 0px;
-text-align: center;
-font-size: 10px; 
-https://youtu.be/mSh2yWLk4eU?t=1001
-https://youtu.be/m327MsowAvg?t=213*/
