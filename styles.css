@@ -195,14 +195,14 @@ ul {
 
 .informationlink {
   text-decoration: none;
-  color: rgb(53, 167, 255);
+  color: rgb(230, 230, 230);
   font-size: 15px;
   font-weight: 500;
   transition: 0.4s;
 }
 
 .informationlink:hover {
-  color: rgb(230, 230, 230);
+  color: rgb(53, 167, 255);
 }
 
 
@@ -302,6 +302,7 @@ footer {
   width: auto;
   height: auto;
   display: flex;
+  padding-left: 10px;
 }
 
 .social-ig:hover {
@@ -364,6 +365,8 @@ footer {
 .container--footer {
   width: 100%;
   background: #101010;
+  display: flex;
+  justify-content: center;
 }
 
 .footer {
@@ -382,6 +385,7 @@ footer {
   text-decoration: none;
   color: #ffffff;
   font-weight: bold;
+  padding-right: 20px;
 }
 
 .information {
@@ -389,7 +393,7 @@ footer {
   color: #ffffff;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 798px) {
   .container--body {
     display: block;
   }
