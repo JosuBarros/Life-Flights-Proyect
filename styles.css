@@ -45,19 +45,6 @@ nav {
   background: linear-gradient(90deg, rgba(12,29,50,1) 0%, rgba(18,56,106,1) 77%, rgba(19,123,255,1) 100%);
 }
 
-.nav--link {
-  text-decoration: none;
-  color: rgb(53, 167, 255);
-  font-size: 20px;
-  font-weight: 500;
-  transition: 0.4s;
-}
-
-.nav--link:hover {
-  color: rgb(255, 136, 17);
-}
-
-
 .icons {
   display: none;
 }
@@ -70,6 +57,18 @@ nav {
     width: 20px;
     display: block;
   }
+}
+
+.nav--link {
+  text-decoration: none;
+  color: rgb(53, 167, 255);
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.4s;
+}
+
+.nav--link:hover {
+  color: rgb(255, 136, 17);
 }
 
 .menu-fixed {
