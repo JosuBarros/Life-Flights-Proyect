@@ -74,28 +74,21 @@
       </div>
       <h1>Hello travelers, where would you like to go?</h1>
       <section class="destino">
-        <div>
-          <label for="">From</label>
-          <input class="Search" type="text" />
-          <label
-            ><input
-              type="checkbox"
-              id="cbox1"
-              value="Argentina"
-            />Argentina</label
-          >
-          <label
-            ><input type="checkbox" id="cbox2" value="Mexico" />Mexico</label
-          >
+        <div class="dropdown">
+          <input onclick="myFunction()" class="dropbtn">from</input>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </div>
-        <div>
-          <label for="">To</label>
-          <input class="Search" type="text" />
-          <label><input type="checkbox" id="cbox3" value="Paris" />Paris</label>
-          <label
-            ><input type="checkbox" id="cbox4" value="NewYork" />New York</label
-          >
-        </div>
+        <div class="dropdown">
+          <input onclick="myFunction()" class="dropbtn">to</input>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
       </section>
       <section class="form">
         <form action="">
