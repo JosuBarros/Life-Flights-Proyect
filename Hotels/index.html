@@ -11,21 +11,23 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link
-      rel="StyleSheet"
-      href="../styles.css"
-      type="text/css"
-      media="screen"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&family=Oswald:wght@400;500&display=swap"
-      rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&family=Oswald:wght@400;500&display=swap"
+    rel="stylesheet"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../Img/IconoLF.png" />
     <script src="https://code.jquery.com/jquery-latest.js"></script>
-    <script src="./main.js"></script>
+    <script src="../Main/main.js"></script>
+    <link
+      rel="StyleSheet"
+      href="../Hotels/styles.css"
+      type="text/css"
+      media="screen"
+    />
     <title>Life Flights</title>
   </head>
   <body>
@@ -58,83 +60,76 @@
         </li>
       </ul>
     </nav>
-    <div class="hotels">    
-      <figure>
-      <img class="sourcehotel" src="../Img/hotel1.jpg"
-           alt="Hotel1">
-      <figcaption><h2>hotel</h2></figcaption>
-    </figure>
-    <figure>
-      <img class="sourcehotel" src="../Img/hotel2.jpeg"
-           alt="Hotel2">
-      <figcaption><h2>hotel</h2></figcaption>
-    </figure>
-    <figure>
-      <img class="sourcehotel" src="../Img/hotel3.jpg"
-           alt="Hotel3">
-      <figcaption><h2>hotel</h2></figcaption>
-    </figure>
-    <figure>
-      <img class="sourcehotel" src="../Img/hotel4.jpg"
-           alt="Hotel4">
-      <figcaption><h2>hotel</h2></figcaption>
-    </figure>
-    <figure>
-      <img class="sourcehotel" src="../Img/hotel5.jpg"
-           alt="Hotel5">
-      <figcaption><h2>hotel</h2></figcaption>
-    </figure>
-    <figure>
-      <img class="sourcehotel" src="../Img/hotel6.jpg"
-           alt="Hotel6">
-      <figcaption><h2>hotel</h2></figcaption>
-    </figure>
-
-    <figure>
-      <img class="sourcehotel" src="../Img/hotel7.jpg"
-           alt="Hotel7">
-      <figcaption><h2>hotel</h2></figcaption>
-    </figure>
-    <figure>
-      <img class="sourcehotel" src="../Img/hotel8.jpg"
-           alt="Hotel8">
-      <figcaption><h2>hotel</h2></figcaption>
-    </figure>
-    <figure>
-      <img class="sourcehotel" src="../Img/hotel9.jpg"
-           alt="Hotel9">
-      <figcaption><h2>hotel</h2></figcaption>
-    </figure>
-    <figure>
-      <img class="sourcehotel" src="../Img/hotel10.jpg"
-           alt="Hotel10">
-      <figcaption><h2>hotel</h2></figcaption>
-    </figure>
-    <figure>
-      <img class="sourcehotel" src="../Img/hotel11.jpg"
-           alt="Hotel11">
-      <figcaption><h2>hotel</h2></figcaption>
-    </figure>
-    <figure>
-      <img class="sourcehotel" src="../Img/hotel12.png"
-           alt="Hotel12">
-      <figcaption><h2>hotel</h2></figcaption>
-    </figure>
-    <figure>
-      <img class="sourcehotel" src="../Img/hotel13.jpg"
-           alt="Hotel13">
-      <figcaption><h2>hotel</h2></figcaption>
-    </figure>
-    <figure>
-      <img class="sourcehotel" src="../Img/hotel14.jpg"
-           alt="Hotel14">
-      <figcaption><h2>hotel</h2></figcaption>
-    </figure>
-    <figure>
-      <img class="sourcehotel" src="../Img/hotel15.jpg"
-           alt="Hotel15">
-      <figcaption><h2>hotel</h2></figcaption>
-    </figure>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade hotel-Item" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../Img/hotel13.jpg" class="d-block w-100" alt="not found">
+        </div>
+        <div class="carousel-item">
+          <img src="../Img/hotel5.jpg" class="d-block w-100" alt="not found">
+        </div>
+        <div class="carousel-item">
+          <img src="../Img/hotel3.jpg" class="d-block w-100" alt="not found">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="hotels d-flex flex-wrap row justify-content-center"> 
+      <div class="card col-md-3 col-sm-12">
+        <img src="../Img/hotel1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">hotel</h5>
+          <p class="card-text">Descripcion</p>
+          <a href="#" class="btn btn-primary">See more..</a>
+        </div>
+      </div>
+      <div class="card col-md-3 col-sm-12">
+        <img src="../Img/hotel2.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">hotel</h5>
+          <p class="card-text">Descripcion</p>
+          <a href="#" class="btn btn-primary">See more..</a>
+        </div>
+      </div>
+      <div class="card col-md-3 col-sm-12">
+        <img src="../Img/hotel3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">hotel</h5>
+          <p class="card-text">Descripcion</p>
+          <a href="#" class="btn btn-primary">See more..</a>
+        </div>
+      </div>
+      <div class="card col-md-3 col-sm-12">
+        <img src="../Img/hotel4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">hotel</h5>
+          <p class="card-text">Descripcion</p>
+          <a href="#" class="btn btn-primary">See more..</a>
+        </div>
+      </div>
+      <div class="card col-md-3 col-sm-12">
+        <img src="../Img/hotel5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">hotel</h5>
+          <p class="card-text">Descripcion</p>
+          <a href="#" class="btn btn-primary">See more..</a>
+        </div>
+      </div>
+      <div class="card col-md-3 col-sm-12">
+        <img src="../Img/hotel6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">hotel</h5>
+          <p class="card-text">Descripcion</p>
+          <a href="#" class="btn btn-primary">See more..</a>
+        </div>
+      </div>   
   </div>
     <footer>
       <div class="container-footer-all">

@@ -182,7 +182,7 @@ section {
 label {
   font-family: 'Oswald', sans-serif;
   width: auto;
-  height: auto;
+  height: 60px;
   display: flex;
 }
 
@@ -191,6 +191,7 @@ ul {
   display: flex;
   justify-content: center;
   width: 100%;
+  margin: 10px 0;
 }
 
 .informationlink {
@@ -205,10 +206,20 @@ ul {
   color: rgb(53, 167, 255);
 }
 
+.input-group>.form-control, .input-group>.form-select {
+  position: relative;
+  width: auto;
+  height: 60px;
+  min-width: 0;
+}
+
+.carousel-item hotels
+
 
 input { 
   background-color:transparent;
-  width: 100%;
+  width: auto;
+  height: 60px;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -327,8 +338,8 @@ footer {
 }
 
 .row img {
-  width: 30px;
-  height: 30px;
+  width: auto;
+  height: auto;
 }
 
 .row label {
@@ -352,7 +363,7 @@ footer {
 }
 
 .row2 img {
-  width: 30px;
+  width: 30px; 
   height: 30px;
 }
 
@@ -446,6 +457,7 @@ footer {
 
 .hotels {
   padding: 50px;
+  gap: 30px;
 }
 
 figure {
@@ -470,4 +482,17 @@ figcaption {
   padding: 3px;
   text-align: center;
   font-size: 15px;
+}
+
+.hotel-Item {
+  height: 60vh;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  
+.hotel-Item {
+  height: 30vh;
+}
+
 }
