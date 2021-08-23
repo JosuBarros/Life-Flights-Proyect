@@ -294,6 +294,25 @@ footer {
     text-decoration: none;
     color: #ffffff;
   }
+
+  .informationlink {
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.4s;
+  }
+  
+  .informationlink:hover {
+    color: rgb(53, 167, 255);
+  }
+  
+  .input-group>.form-control, .input-group>.form-select {
+    position: relative;
+    width: auto;
+    height: 60px;
+    min-width: 0;
+  }
   
   @media screen and (max-width: 798px) {
     .container--body {
